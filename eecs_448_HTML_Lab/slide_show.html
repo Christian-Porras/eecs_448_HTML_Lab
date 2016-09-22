@@ -1,20 +1,17 @@
 <html>
 	<head>
 		<title>Slide Show!</title>
-		<script src = "src/slide_show.js"></script>
+		<script type = "text/javascript" src="js/slide_show.js"></script>
 	</head>
-
-		<img src="img/business_cat.jpg" id = "cat" height = "300" width = "300">
-		<img src="img/business_panda.jpg" id = "panda" height = "300" width = "300">
-		<img src="img/lemur.jpg" id = "lemur" height = "300" width = "300">
-		<img src="img/pug.jpg" id = "pug" height = "300" width = "300">
-		<img src="img/wolf.jpg" id = "wolf" height = "300" width = "300">
-		<img src="img/raccoon.jpg" id = "raccoon"  height = "300" width = "300">
-
 	<body>
 		<h1 align = "center">Welcome to the Show!</h1>
 
-		<div align = "center" >
+		<div align = "center" id = "pictureDisplay">
+			<img src="img/business_panda.jpg" id = "currentPicture" height="500" width="500">
+		</div>
+		<div align ="center" id = "buttons">
+			<button onclick="prevPicture()">Previous Image</button>
+			<button onclick="nextPicture()">Next Image</button>
 		</div>
 	</body>
 </html>
