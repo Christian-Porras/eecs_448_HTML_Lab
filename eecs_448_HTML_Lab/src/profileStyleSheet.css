@@ -1,0 +1,23 @@
+body
+{
+  background-image: url("../img/illidan_background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1
+{
+  color: white;
+}
+
+p.bio{
+  font-size: 16px;
+  color: white;
+  background-color: black;
+}
+
+#Bio
+{
+  margin-top: 20px;
+}
