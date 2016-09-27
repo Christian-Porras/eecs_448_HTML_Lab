@@ -17,6 +17,10 @@ p.bio{
   background-color: black;
 }
 
+p.bio:hover{
+  visibility: hidden;
+}
+
 #Bio
 {
   margin-top: 20px;
