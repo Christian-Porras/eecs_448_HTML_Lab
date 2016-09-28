@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>CSS Manipulation</title>
+    <script src = "js/cssManipulation.js" type = "text/javascript"></script>
+    <link href="src/cssManipulationStyleSheet.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+    <div id = "Text" align = "center">
+      <p class="Text" id = "Paragraph" style="background-color:white" >This is just a dummy paragraph. The words in this paragraph have no purpose but to tell you that they have no purpose.
+      Thank you for acknowledging that this paragraph exists and has no purpose.</p>
+    </div>
+
+    <div id = "Border">
+      <h2 class="BorderValues">Change the border values (use rgb values of 0 - 255)</h2>
+      <input type = "text" id = "borderRed">Red Value</input>
+      <input type = "text" id = "borderBlue">Blue Value</input>
+      <input type = "text" id = "borderGreen">Green Value</input>
+      <input type = "text" id = "borderWidth">Width</input>
+    </div>
+    <div id = "Background">
+      <h2 class = "BackgroundValues">Change the background color (use rgb values of 0 - 255)</h2>
+      <input type = "text" id = "backgroundRed">Red Value</input>
+      <input type = "text" id = "backgroundBlue">Blue Value</input>
+      <input type = "text" id = "backgroundGreen">Green Value</input>
+    </div>
+    <div id = "RunButton">
+      <button id = "run" onclick="changeValues()">Run</button>
+  </body>
+</html>
