@@ -1,5 +1,4 @@
 function changeValues(){
-  alert("test 1");
   var redBorder = document.getElementById("borderRed").value;
   var blueBorder = document.getElementById("borderBlue").value;
   var greenBorder = document.getElementById("borderGreen").value;
